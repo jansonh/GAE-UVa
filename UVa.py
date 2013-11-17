@@ -24,6 +24,9 @@ class UVa:
       280440,  #felix
       327400,  #roberto
       230542,  #andre tirta
+      348674,  #debora
+      78850,   #hobert
+      348679,  #danieal
    }
    
    baseurl = "http://uhunt.felix-halim.net/api/"
