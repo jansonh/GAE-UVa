@@ -16,7 +16,7 @@ class UVa:
       230526,  #geraldi
       329831,  #franky
       329838,  #freedy
-      329848,  #lewis
+      329848,  #adrian lewis
       326241,  #hendra liana
       322566,  #shella
       331044,  #dewi
@@ -27,12 +27,36 @@ class UVa:
       348674,  #debora
       78850,   #hobert
       348679,  #danieal
+      #850689,  #zakhayu
+      850538,  #bella
+      850535,  #yoferen
+      850092,  #suryanto
+      851423,  #felix gotama
+      851420,  #cindy winata
+      851443,  #ryan surjadi
+      788998,  #fendy augusfian
+      784174,  #kuncoro yoko
+      851853,  #nicholas jovianto
+      840938,  #calvin kwee
+      779649,  #jimmy
+      807088,  #amartha dimas
+      859207,  #yogi
+      851869,  #edwin SH
+      859203,  #alfred
+      899788,  #ricky effendi
+      899790,  #steven (2016)
+      899792,  #fonda
+      899789,  #charles yuliansen
+      899786,  #hengki pranoto
+      900503,
+      900536,
+      900322,
    }
-   
-   baseurl = "http://uhunt.felix-halim.net/api/"
+
+   baseurl = "https://uhunt.onlinejudge.org/api/"
    problem_baseurl = "http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem="
-   username_baseurl = "http://uhunt.felix-halim.net/id/"
-   
+   username_baseurl = "https://uhunt.onlinejudge.org/id/"
+
    verdict = {
       10: "Submission error",
       15: "Can't be judge",
@@ -53,7 +77,7 @@ class UVa:
       retval = []
       ranklist_baseurl = self.baseurl + "ranklist/"
       lastsubmission_baseurl = self.baseurl + "subs-user-last/"
-      
+
       for uid in self.userid:
          e = {"id": uid}
 
@@ -79,7 +103,7 @@ class UVa:
             e.update({"lastverdict": self.getVerdict(subs[2])});
             e.update({"lastdatetime": self.getDatetime(subs[4])});
             e.update({"lastproblemlink": self.problem_baseurl + str(subs[1])});
-         
+
          retval.append(e)
 
       retval = sorted(retval, key=lambda k: k["ac"], reverse=True)
