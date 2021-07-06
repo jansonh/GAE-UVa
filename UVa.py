@@ -6,51 +6,58 @@ from google.appengine.api import urlfetch
 
 class UVa:
    userid = {
-      1498,    #janson
-      271633,  #stenly
-      230537,  #patricia
-      230534,  #rudy
-      272593,  #erhem
-      327438,  #kenneth
-      324273,  #edwinner
-      230526,  #geraldi
-      329831,  #franky
-      329838,  #freedy
-      329848,  #adrian lewis
-      326241,  #hendra liana
-      322566,  #shella
-      331044,  #dewi
-      327396,  #jehoshaphat
-      280440,  #felix
-      327400,  #roberto
-      230542,  #andre tirta
-      348674,  #debora
-      78850,   #hobert
-      348679,  #danieal
-      #850689,  #zakhayu
-      850538,  #bella
-      850535,  #yoferen
-      850092,  #suryanto
-      851423,  #felix gotama
-      851420,  #cindy winata
-      851443,  #ryan surjadi
-      788998,  #fendy augusfian
-      784174,  #kuncoro yoko
-      851853,  #nicholas jovianto
-      840938,  #calvin kwee
-      779649,  #jimmy
-      807088,  #amartha dimas
-      859207,  #yogi
-      851869,  #edwin SH
-      859203,  #alfred
-      899788,  #ricky effendi
-      899790,  #steven (2016)
-      899792,  #fonda
-      899789,  #charles yuliansen
-      899786,  #hengki pranoto
-      900503,
-      900536,
-      900322,
+      1498,    # janson
+      271633,  # stenly
+      230537,  # patricia
+      230534,  # rudy
+      272593,  # erhem
+      327438,  # kenneth
+      324273,  # edwinner
+      230526,  # geraldi
+      329831,  # franky
+      329838,  # freddy
+      329848,  # adrian lewis
+      326241,  # hendra liana
+      322566,  # shella
+      331044,  # dewi
+      327396,  # jehoshaphat
+      280440,  # felix
+      327400,  # roberto
+      230542,  # andre tirta
+      348674,  # debora
+      78850,   # hobert
+      348679,  # danieal
+      #850689, # zakhayu
+      850538,  # bella
+      850535,  # yoferen
+      850092,  # suryanto
+      851423,  # felix gotama
+      851420,  # cindy winata
+      851443,  # ryan surjadi
+      788998,  # fendy augusfian
+      784174,  # kuncoro yoko
+      851853,  # nicholas jovianto
+      840938,  # calvin kwee
+      779649,  # jimmy
+      807088,  # amartha dimas
+      859207,  # yogi
+      851869,  # edwin SH
+      859203,  # alfred
+      899788,  # ricky effendi
+      899790,  # steven (2016)
+      899792,  # fonda
+      899789,  # charles yuliansen
+      899786,  # hengki pranoto
+      900503,  # andrew
+      900536,  # jansen
+      900322,  # christian
+      1135982, # steven dharmawan
+      1223042, # hizkia halim
+      1223036, # kelvianto husodo
+      1222985, # yansky
+      1222983, # ivan jairus
+      1222977, # vincent fernandes
+      1222959, # sandy
    }
 
    baseurl = "https://uhunt.onlinejudge.org/api/"
