@@ -33,8 +33,8 @@ class UVa:
       850092,  # suryanto
       851423,  # felix gotama
       851420,  # cindy winata
-      851443,  # ryan surjadi
-      788998,  # fendy augusfian
+      #851443,  # ryan surjadi
+      #788998,  # fendy augusfian
       784174,  # kuncoro yoko
       851853,  # nicholas jovianto
       840938,  # calvin kwee
@@ -45,7 +45,7 @@ class UVa:
       859203,  # alfred
       899788,  # ricky effendi
       899790,  # steven (2016)
-      899792,  # fonda
+      #899792,  # fonda
       899789,  # charles yuliansen
       899786,  # hengki pranoto
       900503,  # andrew
