@@ -58,6 +58,21 @@ class UVa:
       1222983, # ivan jairus
       1222977, # vincent fernandes
       1222959, # sandy
+      1223016, # nicholas hadi
+      1223329, # wiliam 2020
+      1223330, # james effendy
+      1223459, # bertrand ferrari
+      1223322, # nikita siswadi
+      1223320, # mathew judianto
+      1223385, # kevin adhi
+      1223321, # michelle augustine
+      1223457, # stephen adhikurnia
+      1223326, # richard stephen
+      1223325, # djordi bagaskara
+      1223468, # eriana retno putri
+      1223450, # aurelia stephani
+      1223324, # christopher caleb
+      1223651, # dian anggraini cahyaning tyas
    }
 
    baseurl = "https://uhunt.onlinejudge.org/api/"
